@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="monday.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="body">
+    <div class="mainContainer">
+       <div class="storySection">
+        <h3>Enter Your Story</h3>
+        <form action="" class="form" id="form">
+
+            <div class="inputGroup">
+                <label for="story">Enter Your Story:</label>
+                <input type="text" name="story" id="story" placeholder="Enter Your Story">
+                <p id="para" class="para"></p>
+            </div>
+
+            <button type="submit" class="create" id="create">Create Story</button>
+        </form>
+       </div> 
+
+       <div class="todoSection">
+        <div class="todoContainer" id="todoContainer">
+            <p class="text" id="text">No Stories Entered</p>
+
+        </div>
+        <button class="clear" id="clear">Clear All</button>
+       </div>
+    </div>
+
+    <script src="monday.js"></script>
+</body>
+</html>

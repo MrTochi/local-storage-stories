@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.mainContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    
+}
+.storySection{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+    padding: 2rem;
+   border: 1px solid black;
+    margin-top: 1rem;
+}
+
+.storySection h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+}
+
+.inputGroup{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+   
+}
+
+label{
+    font-size: 0.9rem;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+}
+
+input::placeholder{
+    font-size: 0.7rem;
+    color: #d3d3d3;
+}
+
+.create{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.todoSection{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    padding: 2rem;
+   border: 1px solid black;
+    margin-top: 1rem;
+}
+
+.para{
+    color: red;
+    font-size: 0.7rem;
+}
+
+.todoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+
+.text{
+    color: #d3d3d3;
+}
+
+.story-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.clear{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+}
